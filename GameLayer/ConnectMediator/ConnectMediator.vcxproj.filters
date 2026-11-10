@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{7f7b6158-e91c-4dfe-a696-d2790ec77108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\test">
+      <UniqueIdentifier>{35b3db11-9143-4e3d-a083-01b7cd552ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Common">
+      <UniqueIdentifier>{4f1c524c-25c1-4d6f-bed2-c96f5ffa8181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Controller">
+      <UniqueIdentifier>{f6659db3-c8de-4267-80b7-877e0200be02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Model">
+      <UniqueIdentifier>{e45cd91b-36aa-46ce-b4ae-0740661e5ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Controller\Command">
+      <UniqueIdentifier>{f81e6338-2002-49d8-ac6b-ffc9dc850dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Controller\Command\cs">
+      <UniqueIdentifier>{e1edcb1b-2aff-4b9f-9011-0d7be9e8a2e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Controller\Command\ga">
+      <UniqueIdentifier>{a0db6e3e-e141-4435-b461-5029a8780f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Controller\Command\ls">
+      <UniqueIdentifier>{a6e07a38-900d-4a5b-95d7-9dbfec5fbfd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Model\ModelData">
+      <UniqueIdentifier>{c278bb39-916c-4889-be13-0a5d1ba8d98b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Model\Proxy">
+      <UniqueIdentifier>{bd7bab2d-7421-483d-ba1b-6e2eb73d8612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Model\vo">
+      <UniqueIdentifier>{68ac93ed-56a1-4d7a-ab8b-5fafb6b8d5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Model\vo\cs">
+      <UniqueIdentifier>{683d3f1d-3e4b-4f8b-8528-cdf7b44138ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Model\vo\ga">
+      <UniqueIdentifier>{1fbe2af9-a72b-42e2-87a1-598470569b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Model\vo\ls">
+      <UniqueIdentifier>{2852b7ca-0508-48d6-934b-7b249677ceaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseLayer">
+      <UniqueIdentifier>{616bd6db-caa6-4411-bccd-4e26f32794cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseLayer\Component">
+      <UniqueIdentifier>{63cda214-5640-4fb1-9adf-c2257fdae260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseLayer\Core">
+      <UniqueIdentifier>{aa1cd756-ae91-4d14-bc9d-ef457acdb033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseLayer\Services">
+      <UniqueIdentifier>{38aca37b-18bf-4b05-b86c-f9b9dbd6215d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseLayer\Tools">
+      <UniqueIdentifier>{90d08ded-92e2-4a4b-8e4a-b779215cc1f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseLayer\Component\Common">
+      <UniqueIdentifier>{dd4ff047-dc45-4397-98f7-13ac7b3b4298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseLayer\Component\Interfaces">
+      <UniqueIdentifier>{aab1afb7-f9a9-4f3f-bfc5-7b1b529bff86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseLayer\Component\Net">
+      <UniqueIdentifier>{e54b52be-b5a8-43a3-8dae-af022e27b933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseLayer\Component\Patterns">
+      <UniqueIdentifier>{cce5a128-fe13-484b-a3d7-581663db388a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseLayer\Component\Patterns\Command">
+      <UniqueIdentifier>{217004e0-c61c-48ca-a791-f92526eea728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseLayer\Component\Patterns\Facade">
+      <UniqueIdentifier>{5fecd987-bd99-4eee-a6a6-69f5e815a974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseLayer\Component\Patterns\Iterator">
+      <UniqueIdentifier>{1db8376d-7669-400a-8460-799106dac1d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseLayer\Component\Patterns\Mediator">
+      <UniqueIdentifier>{0bb681c1-d5f2-4ac2-83c4-944b0fa46de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseLayer\Component\Patterns\Observer">
+      <UniqueIdentifier>{0d388dc1-5cbf-4d9d-84d8-c771781829a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseLayer\Component\Patterns\Proxy">
+      <UniqueIdentifier>{247c7351-7a84-4c6d-9184-8216298ea9de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseLayer\Core\Controller">
+      <UniqueIdentifier>{8c6d0eca-b64c-44ea-b01f-eb32e20a9166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseLayer\Core\Model">
+      <UniqueIdentifier>{1fae9070-6db5-4cbb-a79b-03fcc0f80028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseLayer\Core\View">
+      <UniqueIdentifier>{6a0a0c1b-0991-435b-b95d-3999e88fa9a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseLayer\Services\Socket">
+      <UniqueIdentifier>{a3f49c94-bc35-4154-97af-b8005c8abe10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Common\GameProtocol.h">
+      <Filter>Source Files\src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\CommandList.h">
+      <Filter>Source Files\src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\ServiceCloseCommand.hpp">
+      <Filter>Source Files\src\Controller\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\LobbyStartUpCommand.hpp">
+      <Filter>Source Files\src\Controller\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\AcceptKeepTableInfoCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\AcceptOnlineMemberCountCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\AcceptPlayerLoginCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\AcceptUserListCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\AddBadGuyCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\AddFriendCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\AddLoaderToStageCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\AllChannelMessageReceivedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\AskGameGroupListCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\AskOnlineMemberCountCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\AskUserListCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\BadGuyAddedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\BadGuyDeletedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\BadGuyListReceivedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\BroadcastJPMessageArrivedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\BroadcastMessageArrivedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\CancelJoinedGroupCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\CentralServerTickCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\CentralServerTickEnabledCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\ChannelListArrivedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\ChannelMessageReceivedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\ChannelUserLeaveCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\ChannelUserListArrivedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\ConnectToCentralServerCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\DeleteBadGuyCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\DeleteFriendCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\DoGameLoadErrorCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\FriendAddedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\FriendDeletedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\FriendListReceivedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\FriendshipAskCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\FriendshipAskResultCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\GameDisconnectedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\GameGroupFinishedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\GetBadGuyListCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\GetFriendListCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\JoinChannelCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\JoinChannelResultCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\JoinedGroupCancelledCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\JoinGroupCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\JoinGroupResultCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\JPBonusReceivedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\LoadGameCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\LoginToCentralServerCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\PingQualityCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\QueryChargeRateCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\QueryChargeRateResultCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\QueryJPBonusCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\ReceivePingCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\SendAllChannelMessageCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\SendChannelMessageCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\SendPingCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\SendTalkCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\SendWhisperCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\SerachUserCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\SerachUserResultCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\SetUserNickNameCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\SetUserNickNameResultCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\SetUserPictureCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\SetUserPictureResultCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\SystemMessageArrivedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\TalkReceivedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\TransferFreePointCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\TransferFreePointResultCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\TransferValuablePointCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\TransferValuablePointResultCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\UserProfileReceivedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\WhisperReceivedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\AcceptGameGroupListCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\cs\AcceptGameStateCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\ga\RegisterLoaderCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\ga\SyncGameServerDataCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\ga\AcceptGameClientClosedCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\ga\AcceptGameServerLoginResultCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\ga\ConnectToGameServerCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\ga\GameServerTickCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\ga\LoginToGameServerCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\ls\LoginToLoginServerCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\ls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller\Command\ls\ConnectToLoginServerCommand.hpp">
+      <Filter>Source Files\src\Controller\Command\ls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\ModelData\ChatModelData.h">
+      <Filter>Source Files\src\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\ModelData\GameGroupBufferModelData.h">
+      <Filter>Source Files\src\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\ModelData\GameInfoManagerModelData.h">
+      <Filter>Source Files\src\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\ModelData\GameServerLoginBufferModelData.h">
+      <Filter>Source Files\src\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\ModelData\GameWindowInfoModelData.h">
+      <Filter>Source Files\src\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\ModelData\GameWindowManagerModelData.h">
+      <Filter>Source Files\src\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\ModelData\GCliUserInfoListModelData.h">
+      <Filter>Source Files\src\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\ModelData\LoginBufferModelData.h">
+      <Filter>Source Files\src\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\ModelData\PlayerModelData.h">
+      <Filter>Source Files\src\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\ModelData\BroadcastModelData.h">
+      <Filter>Source Files\src\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\Proxy\GameServerProxy.hpp">
+      <Filter>Source Files\src\Model\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\Proxy\LoginServerProxy.hpp">
+      <Filter>Source Files\src\Model\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\Proxy\CentralServerProxy.hpp">
+      <Filter>Source Files\src\Model\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\vo\cs\CS_LB_BOOT_TICK_R_Vo.h">
+      <Filter>Source Files\src\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\vo\cs\CS_LB_CHK_USER_R_Vo.h">
+      <Filter>Source Files\src\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\vo\cs\CS_LB_CHK_USER_S_Vo.h">
+      <Filter>Source Files\src\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\vo\cs\CS_LB_GET_FIVE_POKER_GRP_LIST_R_Vo.h">
+      <Filter>Source Files\src\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\vo\cs\CS_LB_GET_GAME_STATE_R_Vo.h">
+      <Filter>Source Files\src\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\vo\cs\CS_LB_USER_JOIN_BUILTIN_GRP_R_Vo.h">
+      <Filter>Source Files\src\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\vo\cs\CS_LB_USER_JOIN_BUILTIN_GRP_S_Vo.h">
+      <Filter>Source Files\src\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\vo\cs\CS_LB_USER_RELOGIN_GS_R_Vo.h">
+      <Filter>Source Files\src\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\vo\cs\CS_FIVE_POKER_GROUP.h">
+      <Filter>Source Files\src\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\vo\cs\CS_LB_ASK_GAME_GRP_LIST_S_Vo.h">
+      <Filter>Source Files\src\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\vo\ga\GS_GA_RELOGIN_USER_R_Vo.h">
+      <Filter>Source Files\src\Model\vo\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\vo\ga\GS_GA_RELOGIN_USER_S_Vo.h">
+      <Filter>Source Files\src\Model\vo\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\vo\ga\SLMSG_Vo.h">
+      <Filter>Source Files\src\Model\vo\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\vo\ga\CLIMSG_GROUP_SETTED_Vo.h">
+      <Filter>Source Files\src\Model\vo\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\vo\ls\LS_LB_CHK_USER_R_Vo.h">
+      <Filter>Source Files\src\Model\vo\ls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\vo\ls\CS_ListData.h">
+      <Filter>Source Files\src\Model\vo\ls</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\vo\ls\LoginRequestVo.h">
+      <Filter>Source Files\src\Model\vo\ls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Common\IData.h">
+      <Filter>Source Files\BaseLayer\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Common\InstanceMap.h">
+      <Filter>Source Files\BaseLayer\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Common\Type.h">
+      <Filter>Source Files\BaseLayer\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Common\Common.h">
+      <Filter>Source Files\BaseLayer\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Common\Event.h">
+      <Filter>Source Files\BaseLayer\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Interfaces\IController.h">
+      <Filter>Source Files\BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Interfaces\IEvent.h">
+      <Filter>Source Files\BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Interfaces\IFacade.h">
+      <Filter>Source Files\BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Interfaces\IIterator.h">
+      <Filter>Source Files\BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Interfaces\IMediator.h">
+      <Filter>Source Files\BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Interfaces\IModel.h">
+      <Filter>Source Files\BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Interfaces\INotification.h">
+      <Filter>Source Files\BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Interfaces\INotifier.h">
+      <Filter>Source Files\BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Interfaces\IObserver.h">
+      <Filter>Source Files\BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Interfaces\IProxy.h">
+      <Filter>Source Files\BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Interfaces\IView.h">
+      <Filter>Source Files\BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Interfaces\IAggregate.h">
+      <Filter>Source Files\BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Interfaces\ICommand.h">
+      <Filter>Source Files\BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Net\SocketClient.h">
+      <Filter>Source Files\BaseLayer\Component\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Net\GameSocketClient.h">
+      <Filter>Source Files\BaseLayer\Component\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Patterns\Command\Command.h">
+      <Filter>Source Files\BaseLayer\Component\Patterns\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Patterns\Facade\Facade.h">
+      <Filter>Source Files\BaseLayer\Component\Patterns\Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Patterns\Iterator\Iterator.h">
+      <Filter>Source Files\BaseLayer\Component\Patterns\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Patterns\Mediator\Mediator.h">
+      <Filter>Source Files\BaseLayer\Component\Patterns\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Patterns\Observer\Notifier.h">
+      <Filter>Source Files\BaseLayer\Component\Patterns\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Patterns\Observer\Observer.h">
+      <Filter>Source Files\BaseLayer\Component\Patterns\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Patterns\Observer\Notification.h">
+      <Filter>Source Files\BaseLayer\Component\Patterns\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Component\Patterns\Proxy\Proxy.h">
+      <Filter>Source Files\BaseLayer\Component\Patterns\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Core\Controller\Controller.h">
+      <Filter>Source Files\BaseLayer\Core\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Core\Model\Model.h">
+      <Filter>Source Files\BaseLayer\Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Core\View\View.h">
+      <Filter>Source Files\BaseLayer\Core\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Services\Socket\ConnectionModelData.h">
+      <Filter>Source Files\BaseLayer\Services\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Services\Socket\SocketProxy.h">
+      <Filter>Source Files\BaseLayer\Services\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Services\Socket\SocketVo.h">
+      <Filter>Source Files\BaseLayer\Services\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Tools\RSAEncryption.h">
+      <Filter>Source Files\BaseLayer\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Tools\CRCGenerator.h">
+      <Filter>Source Files\BaseLayer\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Tools\DESCrypt.h">
+      <Filter>Source Files\BaseLayer\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Tools\Encryption.h">
+      <Filter>Source Files\BaseLayer\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseLayer\Tools\itoa.h">
+      <Filter>Source Files\BaseLayer\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\GameMessage.hpp">
+      <Filter>Source Files\src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\GlobalVar.h">
+      <Filter>Source Files\src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\vo\cs\CS_LB_GET_USR_LIST_S_Vo.h">
+      <Filter>Source Files\src\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\vo\cs\CS_LB_GET_USR_LIST_R_Vo.h">
+      <Filter>Source Files\src\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\ModelData\CSUserInfoListModelData.h">
+      <Filter>Source Files\src\Model\ModelData</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\test\main.cpp">
+      <Filter>Source Files\src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BaseLayer\Component\Net\SocketClient.cpp">
+      <Filter>Source Files\BaseLayer\Component\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BaseLayer\Component\Net\GameSocketClient.cpp">
+      <Filter>Source Files\BaseLayer\Component\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BaseLayer\Component\Patterns\Command\Command.cpp">
+      <Filter>Source Files\BaseLayer\Component\Patterns\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BaseLayer\Component\Patterns\Facade\Facade.cpp">
+      <Filter>Source Files\BaseLayer\Component\Patterns\Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BaseLayer\Component\Patterns\Mediator\Mediator.cpp">
+      <Filter>Source Files\BaseLayer\Component\Patterns\Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BaseLayer\Component\Patterns\Observer\Notifier.cpp">
+      <Filter>Source Files\BaseLayer\Component\Patterns\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BaseLayer\Component\Patterns\Observer\Notification.cpp">
+      <Filter>Source Files\BaseLayer\Component\Patterns\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BaseLayer\Component\Patterns\Proxy\Proxy.cpp">
+      <Filter>Source Files\BaseLayer\Component\Patterns\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BaseLayer\Core\Controller\Controller.cpp">
+      <Filter>Source Files\BaseLayer\Core\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BaseLayer\Core\Model\Model.cpp">
+      <Filter>Source Files\BaseLayer\Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BaseLayer\Core\View\View.cpp">
+      <Filter>Source Files\BaseLayer\Core\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BaseLayer\Services\Socket\SocketProxy.cpp">
+      <Filter>Source Files\BaseLayer\Services\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\CommandList.cpp">
+      <Filter>Source Files\src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\GlobalVar.cpp">
+      <Filter>Source Files\src\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

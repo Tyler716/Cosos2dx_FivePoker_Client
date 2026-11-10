@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.toolchain.gnu.cygwin.base.246484583">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.cygwin.base.246484583" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="Game" buildProperties="" description="" id="cdt.managedbuild.toolchain.gnu.cygwin.base.246484583" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="cdt.managedbuild.toolchain.gnu.cygwin.base.246484583.558035451" name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.base.1159671514" name="cdt.managedbuild.toolchain.gnu.cygwin.base" superClass="cdt.managedbuild.toolchain.gnu.cygwin.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.Cygwin_PE" id="cdt.managedbuild.target.gnu.platform.cygwin.base.1982678530" name="Debug Platform" osList="win32" superClass="cdt.managedbuild.target.gnu.platform.cygwin.base"/>
+							<builder buildPath="${workspace_loc:/Game/Default}" id="cdt.managedbuild.target.gnu.builder.cygwin.base.125328892" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.cygwin.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.cygwin.base.1241793859" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.base">
+								<option id="gnu.both.asm.option.include.paths.1092397823" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="C:/cocos2d-x/cocos2dx/platform/win32"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\kazmath\include\kazmath&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\lua\lua&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\lua\tolua&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32\zlib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32\libpng&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32\pthread&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32\libxml2&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32\libjpeg&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32\iconv&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1042767399" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.cygwin.base.1040680977" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.cygwin.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.35226882" name="Cygwin C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base">
+								<option id="gnu.cpp.compiler.option.include.paths.1383340216" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Lobby/src/Model/Proxy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/BaseLayer/Component/Patterns/Facade}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/BaseLayer/Component/Common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/BaseLayer/Component/Patterns/Command}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/BaseLayer/Component/Patterns/Proxy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/BaseLayer/Services/Socket}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/BaseLayer/Component/Interfaces}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/BaseLayer/Tools}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/BaseLayer/Component/Patterns/Mediator}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/BaseLayer/Component/Net}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Lobby/src/Controller/Command}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Lobby/src/Common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x&quot;"/>
+									<listOptionValue builtIn="false" value="C:/cocos2d-x/cocos2dx"/>
+									<listOptionValue builtIn="false" value="C:/cocos2d-x/cocos2dx/include"/>
+									<listOptionValue builtIn="false" value="C:/cocos2d-x/cocos2dx/platform/win32"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32\OGLES&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\kazmath\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\lua\lua&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\lua\tolua&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32\zlib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32\libpng&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32\libxml2&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32\libjpeg&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32\iconv&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.1436013395" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_DEBUG_CONSOLE_"/>
+									<listOptionValue builtIn="false" value="WIN32"/>
+									<listOptionValue builtIn="false" value="_WINDOWS"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.421575374" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.466473810" name="Cygwin C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.base">
+								<option id="gnu.c.compiler.option.include.paths.607580960" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="C:/cocos2d-x/cocos2dx/platform/win32"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\kazmath\include\kazmath&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\lua\lua&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\lua\tolua&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32\zlib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32\libpng&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32\pthread&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32\libxml2&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32\libjpeg&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32\iconv&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.1526289520" superClass="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.cygwin.base.334179223" name="Cygwin C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.base.1675935519" name="Cygwin C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.base">
+								<option id="gnu.cpp.link.option.paths.2102315383" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;C:\cocos2d-x\cocos2dx\platform\third_party\win32\libraries&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.2138715175" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="cocos2d-x|BaseLayer|Lobby" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="testsuite/" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="BaseLayer"/>
+						<entry excluding="src/test/" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Lobby"/>
+						<entry excluding="Cocos2dxSimpleGame/|HelloLua/|HelloWorld/|template/|testjs/|tests/|testt/|tools/lua_project_generator/|cocos2dx/platform/android/|cocos2dx/platform/ios/" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="cocos2d-x"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="Game.null.966505139" name="Game"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/Game"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cygwin.base.246484583;cdt.managedbuild.toolchain.gnu.cygwin.base.246484583.558035451;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.35226882;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.421575374">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cygwin.base.246484583;cdt.managedbuild.toolchain.gnu.cygwin.base.246484583.558035451;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.466473810;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.1526289520">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>

@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_ViewTest|Win32">
+      <Configuration>Debug_ViewTest</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5AEA94F0-012A-4FEA-8B68-0E92A73C0199}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_ViewTest|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_ViewTest|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_ViewTest|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\BaseLayer\Component\Common;..\..\..\..\BaseLayer\Component\Interfaces;..\..\..\..\BaseLayer\Component\Net;..\..\..\..\BaseLayer\Component\Patterns\Command;..\..\..\..\BaseLayer\Component\Patterns\Facade;..\..\..\..\BaseLayer\Component\Patterns\Iterator;..\..\..\..\BaseLayer\Component\Patterns\Mediator;..\..\..\..\BaseLayer\Component\Patterns\Observer;..\..\..\..\BaseLayer\Component\Patterns\Proxy;..\..\..\..\BaseLayer\Core\Controller;..\..\..\..\BaseLayer\Core\Model;..\..\..\..\BaseLayer\Core\View;..\..\..\..\BaseLayer\Services\Socket;..\..\..\..\BaseLayer\Tools;..\..\..\..\GameLayer\ConnectMediator\src\Common;..\..\..\..\GameLayer\ConnectMediator\src\Controller\Command;..\..\..\..\GameLayer\ConnectMediator\src\Model\Proxy;..\..\..\..\GameLayer\ConnectMediator\src\Model\vo\ga;$(COCOS2DX_ROOT);$(COCOS2DX_ROOT)\cocos2dx;$(COCOS2DX_ROOT)\cocos2dx\include;$(COCOS2DX_ROOT)\cocos2dx\kazmath\include;$(COCOS2DX_ROOT)\cocos2dx\platform\win32;$(COCOS2DX_ROOT)\cocos2dx\platform\third_party\win32;$(COCOS2DX_ROOT)\cocos2dx\platform\third_party\win32\OGLES;$(COCOS2DX_ROOT)\CocosDenshion\Include;$(COCOS2DX_ROOT)\lua\cocos2dx_support;$(COCOS2DX_ROOT)\lua\tolua;$(COCOS2DX_ROOT)\lua\lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <StructMemberAlignment>8Bytes</StructMemberAlignment>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir);..\..\..\..\BaseLayer\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;opengl32.lib;glew32.lib;libBox2d.lib;libCocosDenshion.lib;liblua.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>FivePoker.h</HeaderFileName>
+      <InterfaceIdentifierFileName>FivePoker_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>FivePoker_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/FivePoker.tlb</TypeLibraryName>
+      <DllDataFileName>
+      </DllDataFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_ViewTest|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\BaseLayer\Component\Common;..\..\BaseLayer\Component\Interfaces;..\..\BaseLayer\Component\Net;..\..\BaseLayer\Component\Patterns\Command;..\..\BaseLayer\Component\Patterns\Facade;..\..\BaseLayer\Component\Patterns\Iterator;..\..\BaseLayer\Component\Patterns\Mediator;..\..\BaseLayer\Component\Patterns\Observer;..\..\BaseLayer\Component\Patterns\Proxy;..\..\BaseLayer\Core\Controller;..\..\BaseLayer\Core\Model;..\..\BaseLayer\Core\View;..\..\BaseLayer\Services\Socket;..\..\BaseLayer\Tools;..\..\GameLayer\Lobby\src\Common;..\..\GameLayer\Lobby\src\Controller\Command;..\..\GameLayer\Lobby\src\Model\Proxy;$(COCOS2DX_ROOT);$(COCOS2DX_ROOT)\cocos2dx;$(COCOS2DX_ROOT)\cocos2dx\include;$(COCOS2DX_ROOT)\cocos2dx\kazmath\include;$(COCOS2DX_ROOT)\cocos2dx\platform\win32;$(COCOS2DX_ROOT)\cocos2dx\platform\third_party\win32;$(COCOS2DX_ROOT)\cocos2dx\platform\third_party\win32\OGLES;$(COCOS2DX_ROOT)\CocosDenshion\Include;$(COCOS2DX_ROOT)\lua\cocos2dx_support;$(COCOS2DX_ROOT)\lua\tolua;$(COCOS2DX_ROOT)\lua\lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <AdditionalOptions>/D View_Test /D _DEBUG_CONSOLE_ %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir);..\..\BaseLayer\lib\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;opengl32.lib;glew32.lib;libBox2d.lib;libCocosDenshion.lib;liblua.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>FivePoker.h</HeaderFileName>
+      <InterfaceIdentifierFileName>FivePoker_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>FivePoker_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/FivePoker.tlb</TypeLibraryName>
+      <DllDataFileName>
+      </DllDataFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\BaseLayer\Component\Common;..\..\BaseLayer\Component\Interfaces;..\..\BaseLayer\Component\Net;..\..\BaseLayer\Component\Patterns\Command;..\..\BaseLayer\Component\Patterns\Facade;..\..\BaseLayer\Component\Patterns\Iterator;..\..\BaseLayer\Component\Patterns\Mediator;..\..\BaseLayer\Component\Patterns\Observer;..\..\BaseLayer\Component\Patterns\Proxy;..\..\BaseLayer\Core\Controller;..\..\BaseLayer\Core\Model;..\..\BaseLayer\Core\View;..\..\BaseLayer\Services\Socket;..\..\BaseLayer\Tools;..\..\GameLayer\Lobby\src\Common;..\..\GameLayer\Lobby\src\Controller\Command;..\..\GameLayer\Lobby\src\Model\Proxy;$(COCOS2DX_ROOT);$(COCOS2DX_ROOT)\cocos2dx;$(COCOS2DX_ROOT)\cocos2dx\include;$(COCOS2DX_ROOT)\cocos2dx\kazmath\include;$(COCOS2DX_ROOT)\cocos2dx\platform\win32;$(COCOS2DX_ROOT)\cocos2dx\platform\third_party\win32;$(COCOS2DX_ROOT)\cocos2dx\platform\third_party\win32\OGLES;$(COCOS2DX_ROOT)\CocosDenshion\Include;$(COCOS2DX_ROOT)\lua\cocos2dx_support;$(COCOS2DX_ROOT)\lua\tolua;$(COCOS2DX_ROOT)\lua\lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGSNDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <StructMemberAlignment>8Bytes</StructMemberAlignment>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(OutDir);..\..\BaseLayer\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;opengl32.lib;glew32.lib;libBox2d.lib;libCocosDenshion.lib;liblua.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>FivePoker.h</HeaderFileName>
+      <InterfaceIdentifierFileName>FivePoker_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>FivePoker_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/FivePoker.tlb</TypeLibraryName>
+      <DllDataFileName>
+      </DllDataFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\BaseLayer\Component\Net\GameSocketClient.cpp" />
+    <ClCompile Include="..\..\..\..\BaseLayer\Component\Net\SocketClient.cpp" />
+    <ClCompile Include="..\..\..\..\BaseLayer\Component\Patterns\Command\Command.cpp" />
+    <ClCompile Include="..\..\..\..\BaseLayer\Component\Patterns\Facade\Facade.cpp" />
+    <ClCompile Include="..\..\..\..\BaseLayer\Component\Patterns\Mediator\Mediator.cpp" />
+    <ClCompile Include="..\..\..\..\BaseLayer\Component\Patterns\Observer\Notification.cpp" />
+    <ClCompile Include="..\..\..\..\BaseLayer\Component\Patterns\Observer\Notifier.cpp" />
+    <ClCompile Include="..\..\..\..\BaseLayer\Component\Patterns\Proxy\Proxy.cpp" />
+    <ClCompile Include="..\..\..\..\BaseLayer\Core\Controller\Controller.cpp" />
+    <ClCompile Include="..\..\..\..\BaseLayer\Core\Model\Model.cpp" />
+    <ClCompile Include="..\..\..\..\BaseLayer\Core\View\View.cpp" />
+    <ClCompile Include="..\..\..\..\BaseLayer\Services\Socket\SocketProxy.cpp" />
+    <ClCompile Include="..\..\..\ConnectMediator\src\Common\CommandList.cpp" />
+    <ClCompile Include="..\..\..\ConnectMediator\src\Common\GlobalVar.cpp" />
+    <ClCompile Include="..\..\src\Game\Game.cpp" />
+    <ClCompile Include="..\..\src\Game\UI_cocos2dx\FivePoker\AppDelegate.cpp" />
+    <ClCompile Include="..\..\src\Game\UI_cocos2dx\FivePoker\CursorTextField.cpp" />
+    <ClCompile Include="..\..\src\Game\UI_cocos2dx\FivePoker\DGLayer.cpp" />
+    <ClCompile Include="..\..\src\Game\UI_cocos2dx\FivePoker\GameScene.cpp" />
+    <ClCompile Include="..\..\src\Game\UI_cocos2dx\FivePoker\LoginLayer.cpp" />
+    <ClCompile Include="..\..\src\Game\UI_cocos2dx\FivePoker\NGLayer.cpp" />
+    <ClCompile Include="..\..\src\Game\UI_cocos2dx\FivePoker\TouchableSprite.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Common\Common.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Common\Event.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Common\IData.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Common\InstanceMap.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Common\Type.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IAggregate.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\ICommand.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IController.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IEvent.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IFacade.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IIterator.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IMediator.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IModel.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\INotification.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\INotifier.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IObserver.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IProxy.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IView.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Net\GameSocketClient.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Net\SocketClient.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Patterns\Command\Command.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Patterns\Facade\Facade.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Patterns\Iterator\Iterator.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Patterns\Mediator\Mediator.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Patterns\Observer\Notification.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Patterns\Observer\Notifier.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Patterns\Observer\Observer.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Patterns\Proxy\Proxy.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Core\Controller\Controller.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Core\Model\Model.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Core\View\View.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Services\Socket\ConnectionModelData.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Services\Socket\SocketProxy.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Services\Socket\SocketVo.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Tools\CRCGenerator.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Tools\DESCrypt.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Tools\Encryption.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Tools\itoa.h" />
+    <ClInclude Include="..\..\..\..\BaseLayer\Tools\RSAEncryption.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Common\CommandList.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Common\GameMessage.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Common\GameProtocol.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Common\GlobalVar.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AcceptGameGroupListCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AcceptGameStateCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AcceptKeepTableInfoCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AcceptOnlineMemberCountCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AcceptPlayerLoginCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AcceptUserListCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AddBadGuyCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AddFriendCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AddLoaderToStageCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AllChannelMessageReceivedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AskGameGroupListCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AskOnlineMemberCountCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AskUserListCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\BadGuyAddedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\BadGuyDeletedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\BadGuyListReceivedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\BroadcastJPMessageArrivedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\BroadcastMessageArrivedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\CancelJoinedGroupCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\CentralServerTickCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\CentralServerTickEnabledCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\ChannelListArrivedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\ChannelMessageReceivedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\ChannelUserLeaveCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\ChannelUserListArrivedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\ConnectToCentralServerCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\DeleteBadGuyCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\DeleteFriendCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\DoGameLoadErrorCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\FriendAddedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\FriendDeletedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\FriendListReceivedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\FriendshipAskCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\FriendshipAskResultCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\GameDisconnectedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\GameGroupFinishedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\GetBadGuyListCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\GetFriendListCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\JoinChannelCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\JoinChannelResultCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\JoinedGroupCancelledCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\JoinGroupCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\JoinGroupResultCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\JPBonusReceivedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\LoadGameCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\LoginToCentralServerCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\PingQualityCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\QueryChargeRateCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\QueryChargeRateResultCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\QueryJPBonusCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\ReceivePingCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SendAllChannelMessageCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SendChannelMessageCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SendPingCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SendTalkCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SendWhisperCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SerachUserCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SerachUserResultCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SetUserNickNameCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SetUserNickNameResultCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SetUserPictureCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SetUserPictureResultCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SystemMessageArrivedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\TalkReceivedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\TransferFreePointCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\TransferFreePointResultCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\TransferValuablePointCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\TransferValuablePointResultCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\UserProfileReceivedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\WhisperReceivedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ga\AcceptGameClientClosedCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ga\AcceptGameServerLoginResultCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ga\ConnectToGameServerCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ga\GameServerTickCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ga\LoginToGameServerCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ga\RegisterLoaderCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ga\SyncGameServerDataCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\LobbyStartUpCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ls\ConnectToLoginServerCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ls\LoginToLoginServerCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ServiceCloseCommand.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\BroadcastModelData.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\ChatModelData.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\CSUserInfoListModelData.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\GameGroupBufferModelData.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\GameInfoManagerModelData.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\GameServerLoginBufferModelData.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\GameWindowInfoModelData.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\GameWindowManagerModelData.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\GCliUserInfoListModelData.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\LoginBufferModelData.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\PlayerModelData.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\Proxy\CentralServerProxy.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\Proxy\GameServerProxy.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\Proxy\LoginServerProxy.hpp" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_FIVE_POKER_GROUP.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_ASK_GAME_GRP_LIST_S_Vo.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_BOOT_TICK_R_Vo.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_CHK_USER_R_Vo.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_CHK_USER_S_Vo.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_GET_FIVE_POKER_GRP_LIST_R_Vo.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_GET_GAME_STATE_R_Vo.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_GET_USR_LIST_R_Vo.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_GET_USR_LIST_S_Vo.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_USER_JOIN_BUILTIN_GRP_R_Vo.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_USER_JOIN_BUILTIN_GRP_S_Vo.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_USER_RELOGIN_GS_R_Vo.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\ga\CLIMSG_GROUP_SETTED_Vo.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\ga\GS_GA_RELOGIN_USER_R_Vo.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\ga\GS_GA_RELOGIN_USER_S_Vo.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\ga\SLMSG_Vo.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\ls\CS_ListData.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\ls\LoginRequestVo.h" />
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\ls\LS_LB_CHK_USER_R_Vo.h" />
+    <ClInclude Include="..\..\src\Controller\Command\SendMsgCommand.hpp" />
+    <ClInclude Include="..\..\src\Controller\Command\WaitSyncCommand.hpp" />
+    <ClInclude Include="..\..\src\Game\Game.h" />
+    <ClInclude Include="..\..\src\Game\Interfaces\IGame.h" />
+    <ClInclude Include="..\..\src\Game\UI_cocos2dx\FivePoker\AnimationAction.hpp" />
+    <ClInclude Include="..\..\src\Game\UI_cocos2dx\FivePoker\AppDelegate.h" />
+    <ClInclude Include="..\..\src\Game\UI_cocos2dx\FivePoker\CursorTextField.h" />
+    <ClInclude Include="..\..\src\Game\UI_cocos2dx\FivePoker\DGLayer.h" />
+    <ClInclude Include="..\..\src\Game\UI_cocos2dx\FivePoker\GameScene.h" />
+    <ClInclude Include="..\..\src\Game\UI_cocos2dx\FivePoker\LoginLayer.h" />
+    <ClInclude Include="..\..\src\Game\UI_cocos2dx\FivePoker\NGLayer.h" />
+    <ClInclude Include="..\..\src\Game\UI_cocos2dx\FivePoker\TouchableSprite.h" />
+    <ClInclude Include="..\..\src\Model\ModelData\FivePokerModelData.h" />
+    <ClInclude Include="..\..\src\Model\Proxy\GameProxy.hpp" />
+    <ClInclude Include="..\..\src\Model\vo\GameMsg.h" />
+    <ClInclude Include="..\..\src\Model\vo\GCLIMSG_Vo.h" />
+    <ClInclude Include="..\..\src\Model\vo\GSLMSG_Vo.h" />
+    <ClInclude Include="..\..\src\View\Mediator\DGMediator.hpp" />
+    <ClInclude Include="..\..\src\View\Mediator\LoginMediator.hpp" />
+    <ClInclude Include="..\..\src\View\Mediator\NGMediator.hpp" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="resource1.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

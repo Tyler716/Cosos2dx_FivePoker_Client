@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Component">
+      <UniqueIdentifier>{c77508c3-94f7-408c-b7b0-a5487a175e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{ea569f40-024f-4bb8-a95e-73cd23011883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Component\Common">
+      <UniqueIdentifier>{fe9557c7-b205-4ff6-85fa-666defa392a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Component\Interfaces">
+      <UniqueIdentifier>{9cc459b0-76c3-42cd-beb1-8a058a87d5cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Component\Net">
+      <UniqueIdentifier>{03e0a058-c9c6-46a3-ac15-c9ab69089331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Component\Patterns">
+      <UniqueIdentifier>{d0c3df91-e7b3-422b-b099-5d366368583a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Component\Patterns\Commond">
+      <UniqueIdentifier>{1bfbe02e-6303-439a-a6e9-e28a263914ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Component\Patterns\Facade">
+      <UniqueIdentifier>{d00576e2-97f8-479e-9c84-855f9b7827b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Component\Patterns\Iterator">
+      <UniqueIdentifier>{6470dbe5-af56-4609-acb6-4b3ce12a4215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Component\Patterns\Mediator">
+      <UniqueIdentifier>{1f3ea8aa-33dc-4184-b9a4-41c0067252ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Component\Patterns\Observer">
+      <UniqueIdentifier>{0058be38-32f1-47a7-aa22-4b60a9920461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Component\Patterns\Proxy">
+      <UniqueIdentifier>{9a13d4e2-1734-4576-bfe2-12117820756f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Controller">
+      <UniqueIdentifier>{c3086284-365c-4cc7-9d94-d5f24bdd1daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Model">
+      <UniqueIdentifier>{55bd72eb-a656-43b4-8066-086d06c20cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\View">
+      <UniqueIdentifier>{c99455d4-8420-43f4-8b41-2aab22223266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services">
+      <UniqueIdentifier>{88b84c1e-4fd5-444f-a6b1-56daee87d998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\testsuite">
+      <UniqueIdentifier>{5b2256f3-8495-462e-a4bf-6bf4a5315e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{0bb9769a-9d5a-4bbe-a774-4abb72c4eb7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services\Socket">
+      <UniqueIdentifier>{35eb3d99-a12d-48fc-acfe-2f8f5e740caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\testsuite\include">
+      <UniqueIdentifier>{2441aedc-e18f-4dc5-ab51-cbe471f7a442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\testsuite\include\tut">
+      <UniqueIdentifier>{4a9e5a24-7751-4284-9685-7b70080c7808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools\Thread">
+      <UniqueIdentifier>{ccb65532-26f8-437a-b49f-b4e474fa5dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\testsuite\src">
+      <UniqueIdentifier>{2c76b07e-1a78-4ec0-9701-0d3ed684d5e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\testsuite\src\Command">
+      <UniqueIdentifier>{5ec89ba1-b4b5-44e2-af84-83cea98bb664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\testsuite\src\Controller">
+      <UniqueIdentifier>{01893c0d-20d1-41a1-8b43-2cbc822ca7a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\testsuite\src\Facade">
+      <UniqueIdentifier>{c4e45c69-319e-4bdb-adec-c711254947ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\testsuite\src\Iterator">
+      <UniqueIdentifier>{96f80504-2732-4313-8129-b6713bff90ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\testsuite\src\Mediator">
+      <UniqueIdentifier>{98fa74f8-4f62-4368-a579-a1247edb77f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\testsuite\src\Observer">
+      <UniqueIdentifier>{caf69e66-8bde-42f4-8415-b1bbf545f3fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\testsuite\src\Proxy">
+      <UniqueIdentifier>{2a9bc11a-1f63-4f7d-879b-1f8481303363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\testsuite\src\View">
+      <UniqueIdentifier>{92d324eb-6c8b-47d8-87d0-33afe4c5e3ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Component\Common\IData.h">
+      <Filter>Source Files\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Common\InstanceMap.h">
+      <Filter>Source Files\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Common\Type.h">
+      <Filter>Source Files\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Common\Common.h">
+      <Filter>Source Files\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Common\Event.h">
+      <Filter>Source Files\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Interfaces\ICommand.h">
+      <Filter>Source Files\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Interfaces\IController.h">
+      <Filter>Source Files\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Interfaces\IEvent.h">
+      <Filter>Source Files\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Interfaces\IFacade.h">
+      <Filter>Source Files\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Interfaces\IIterator.h">
+      <Filter>Source Files\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Interfaces\IMediator.h">
+      <Filter>Source Files\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Interfaces\IModel.h">
+      <Filter>Source Files\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Interfaces\INotification.h">
+      <Filter>Source Files\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Interfaces\INotifier.h">
+      <Filter>Source Files\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Interfaces\IObserver.h">
+      <Filter>Source Files\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Interfaces\IProxy.h">
+      <Filter>Source Files\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Interfaces\IView.h">
+      <Filter>Source Files\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Interfaces\IAggregate.h">
+      <Filter>Source Files\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Net\SocketClient.h">
+      <Filter>Source Files\Component\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Net\GameSocketClient.h">
+      <Filter>Source Files\Component\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Patterns\Command\Command.h">
+      <Filter>Source Files\Component\Patterns\Commond</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Patterns\Facade\Facade.h">
+      <Filter>Source Files\Component\Patterns\Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Patterns\Iterator\Iterator.h">
+      <Filter>Source Files\Component\Patterns\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Patterns\Mediator\Mediator.h">
+      <Filter>Source Files\Component\Patterns\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Patterns\Observer\Observer.h">
+      <Filter>Source Files\Component\Patterns\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Patterns\Observer\Notification.h">
+      <Filter>Source Files\Component\Patterns\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Patterns\Observer\Notifier.h">
+      <Filter>Source Files\Component\Patterns\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Patterns\Proxy\Proxy.h">
+      <Filter>Source Files\Component\Patterns\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Controller\Controller.h">
+      <Filter>Source Files\Core\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Model\Model.h">
+      <Filter>Source Files\Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\View\View.h">
+      <Filter>Source Files\Core\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\Socket\SocketVo.h">
+      <Filter>Source Files\Services\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\Socket\ConnectionModelData.h">
+      <Filter>Source Files\Services\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\Socket\SocketProxy.h">
+      <Filter>Source Files\Services\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\RSAEncryption.h">
+      <Filter>Source Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\CRCGenerator.h">
+      <Filter>Source Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\DESCrypt.h">
+      <Filter>Source Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Encryption.h">
+      <Filter>Source Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\itoa.h">
+      <Filter>Source Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\include\tut_restartable.h">
+      <Filter>Source Files\testsuite\include</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\include\tut.h">
+      <Filter>Source Files\testsuite\include</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\include\tut_reporter.h">
+      <Filter>Source Files\testsuite\include</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\include\tut\tut_posix.hpp">
+      <Filter>Source Files\testsuite\include\tut</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\include\tut\tut_reporter.hpp">
+      <Filter>Source Files\testsuite\include\tut</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\include\tut\tut_restartable.hpp">
+      <Filter>Source Files\testsuite\include\tut</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\include\tut\tut_result.hpp">
+      <Filter>Source Files\testsuite\include\tut</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\include\tut\tut_runner.hpp">
+      <Filter>Source Files\testsuite\include\tut</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\include\tut\tut_xml_reporter.hpp">
+      <Filter>Source Files\testsuite\include\tut</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\include\tut\tut.hpp">
+      <Filter>Source Files\testsuite\include\tut</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\include\tut\tut_assert.hpp">
+      <Filter>Source Files\testsuite\include\tut</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\include\tut\tut_console_reporter.hpp">
+      <Filter>Source Files\testsuite\include\tut</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\include\tut\tut_cppunit_reporter.hpp">
+      <Filter>Source Files\testsuite\include\tut</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\include\tut\tut_exception.hpp">
+      <Filter>Source Files\testsuite\include\tut</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Thread\Thread.hpp">
+      <Filter>Source Files\Tools\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\CommandTestVO.hpp">
+      <Filter>Source Files\testsuite\src\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\CommandTestCommand.hpp">
+      <Filter>Source Files\testsuite\src\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\CommandTestFirstCommand.hpp">
+      <Filter>Source Files\testsuite\src\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\CommandTestSecondCommand.hpp">
+      <Filter>Source Files\testsuite\src\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\ControllerTestVO.hpp">
+      <Filter>Source Files\testsuite\src\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\ControllerTestCommand.hpp">
+      <Filter>Source Files\testsuite\src\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\ControllerTestCommand2.hpp">
+      <Filter>Source Files\testsuite\src\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\ControllerTestInheritance.hpp">
+      <Filter>Source Files\testsuite\src\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\FacadeTestVO.hpp">
+      <Filter>Source Files\testsuite\src\Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\FacadeTestCommand.hpp">
+      <Filter>Source Files\testsuite\src\Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\FacadeTestInheritance.hpp">
+      <Filter>Source Files\testsuite\src\Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\IteratorTest.hpp">
+      <Filter>Source Files\testsuite\src\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\ModelTestProxy.hpp">
+      <Filter>Source Files\testsuite\src\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\ModelTestInheritance.hpp">
+      <Filter>Source Files\testsuite\src\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\ViewTestNote.hpp">
+      <Filter>Source Files\testsuite\src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\ViewTest.hpp">
+      <Filter>Source Files\testsuite\src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\ViewTestInheritance.hpp">
+      <Filter>Source Files\testsuite\src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\ViewTestMediator.hpp">
+      <Filter>Source Files\testsuite\src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\ViewTestMediator2.hpp">
+      <Filter>Source Files\testsuite\src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\ViewTestMediator3.hpp">
+      <Filter>Source Files\testsuite\src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\ViewTestMediator4.hpp">
+      <Filter>Source Files\testsuite\src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\ViewTestMediator5.hpp">
+      <Filter>Source Files\testsuite\src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="testsuite\src\ViewTestMediator6.hpp">
+      <Filter>Source Files\testsuite\src\View</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Component\Net\SocketClient.cpp">
+      <Filter>Source Files\Component\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Net\GameSocketClient.cpp">
+      <Filter>Source Files\Component\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Patterns\Command\Command.cpp">
+      <Filter>Source Files\Component\Patterns\Commond</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Patterns\Facade\Facade.cpp">
+      <Filter>Source Files\Component\Patterns\Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Patterns\Mediator\Mediator.cpp">
+      <Filter>Source Files\Component\Patterns\Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Patterns\Observer\Notification.cpp">
+      <Filter>Source Files\Component\Patterns\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Patterns\Observer\Notifier.cpp">
+      <Filter>Source Files\Component\Patterns\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Patterns\Proxy\Proxy.cpp">
+      <Filter>Source Files\Component\Patterns\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Controller\Controller.cpp">
+      <Filter>Source Files\Core\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Model\Model.cpp">
+      <Filter>Source Files\Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\View\View.cpp">
+      <Filter>Source Files\Core\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\Socket\SocketProxy.cpp">
+      <Filter>Source Files\Services\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="testsuite\src\main.cpp">
+      <Filter>Source Files\testsuite\src</Filter>
+    </ClCompile>
+    <ClCompile Include="testsuite\src\CommandTest.cpp">
+      <Filter>Source Files\testsuite\src\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="testsuite\src\ControllerTest.cpp">
+      <Filter>Source Files\testsuite\src\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="testsuite\src\FacadeTest.cpp">
+      <Filter>Source Files\testsuite\src\Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="testsuite\src\IteratorTest.cpp">
+      <Filter>Source Files\testsuite\src\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="testsuite\src\MediatorTest.cpp">
+      <Filter>Source Files\testsuite\src\Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="testsuite\src\ModelTest.cpp">
+      <Filter>Source Files\testsuite\src\Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="testsuite\src\NotificationTest.cpp">
+      <Filter>Source Files\testsuite\src\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="testsuite\src\ObserverTest.cpp">
+      <Filter>Source Files\testsuite\src\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="testsuite\src\ProxyTest.cpp">
+      <Filter>Source Files\testsuite\src\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="testsuite\src\ViewTest.cpp">
+      <Filter>Source Files\testsuite\src\View</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

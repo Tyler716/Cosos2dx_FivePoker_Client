@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConnectMediator", "ConnectMediator.vcxproj", "{E49A98AB-57E4-46C1-928E-77BA6E965C62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E49A98AB-57E4-46C1-928E-77BA6E965C62}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E49A98AB-57E4-46C1-928E-77BA6E965C62}.Debug|Win32.Build.0 = Debug|Win32
+		{E49A98AB-57E4-46C1-928E-77BA6E965C62}.Release|Win32.ActiveCfg = Release|Win32
+		{E49A98AB-57E4-46C1-928E-77BA6E965C62}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

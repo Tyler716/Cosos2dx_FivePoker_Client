@@ -1,0 +1,768 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{74f1e706-e659-405d-b9b3-d3fe3941500f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{b3ba0d32-e6a0-4018-abff-9cac8e9ab135}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{ee3365c3-5317-440b-8025-4061895aa6f9}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+    <Filter Include="GameLayer">
+      <UniqueIdentifier>{fd7efb17-4062-4478-a83a-af9b1ce2b262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseLayer">
+      <UniqueIdentifier>{128c6eab-4bc7-4742-9e45-5693c0655520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseLayer\Component">
+      <UniqueIdentifier>{c6175130-f2e1-44d3-a468-a068ffada286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseLayer\Component\Interfaces">
+      <UniqueIdentifier>{d3493339-1c4e-40b6-82d3-2db7305de149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseLayer\Component\Common">
+      <UniqueIdentifier>{42ba60c1-974f-4ead-8859-0b60fc7832d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseLayer\Component\Net">
+      <UniqueIdentifier>{a92ae3fe-b502-4f75-ada4-39f22ad0ea8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseLayer\Component\Patterns">
+      <UniqueIdentifier>{57eacfc6-3f45-4e35-8a63-785093769a33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseLayer\Component\Patterns\Command">
+      <UniqueIdentifier>{ad981797-a307-49ab-857a-4b729b6f9849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseLayer\Component\Patterns\Facade">
+      <UniqueIdentifier>{dd9833f4-93eb-417a-9de9-a5485c5c01c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseLayer\Component\Patterns\Iterator">
+      <UniqueIdentifier>{7f3ac6ef-e36b-425f-99b8-6a398e14097a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseLayer\Component\Patterns\Mediator">
+      <UniqueIdentifier>{298558ed-01d9-4a3d-9acb-4bd1c1c6af04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseLayer\Component\Patterns\Observer">
+      <UniqueIdentifier>{3c520b0c-4ff0-478e-a6d1-30f938ed8d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseLayer\Component\Patterns\Proxy">
+      <UniqueIdentifier>{77801f68-12d2-4540-90c3-da99ff1ac73f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseLayer\Core">
+      <UniqueIdentifier>{e53dce93-8480-47ea-8040-55f1c40e5887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseLayer\Core\Controller">
+      <UniqueIdentifier>{13c8bede-e308-4f9b-b61d-30d5c5965172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseLayer\Core\Model">
+      <UniqueIdentifier>{772195c7-84f1-4e81-8092-99aaf427cab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseLayer\Core\View">
+      <UniqueIdentifier>{4c305d23-24d2-4164-889d-86fc5189b87d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseLayer\Services">
+      <UniqueIdentifier>{249397a6-14e7-48af-bfbb-1b54ec883bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseLayer\Services\Socket">
+      <UniqueIdentifier>{bd2ec185-93da-4a05-a49f-e093dfe5691f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseLayer\Tool">
+      <UniqueIdentifier>{710168bd-49c7-4915-8bf4-27f747ece64a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\FivePoker">
+      <UniqueIdentifier>{f3c47bad-9e7e-49cf-845f-4a5357842d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\FivePoker\Model">
+      <UniqueIdentifier>{dd4e45e9-a731-412b-8e52-e1c67cf41058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\FivePoker\Model\ModelData">
+      <UniqueIdentifier>{91547814-d7a0-48c5-a3cc-ed78bb092eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\FivePoker\Model\Proxy">
+      <UniqueIdentifier>{1b1c28e9-b932-45bc-ac10-02c9c2ef9a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\FivePoker\Model\Vo">
+      <UniqueIdentifier>{393ed787-769e-47ee-a182-ffe16b39093f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\FivePoker\Controller">
+      <UniqueIdentifier>{7a44744c-4c02-4df1-ac83-6672730b4167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\FivePoker\Controller\Command">
+      <UniqueIdentifier>{f974b857-6bac-48d6-a020-6d69bc7cf2f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\FivePoker\View">
+      <UniqueIdentifier>{3d199da6-bc22-42ba-9189-15dffcc9b9a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\FivePoker\View\Mediator">
+      <UniqueIdentifier>{c4a8d53a-de7c-46f2-af4b-a09afb39c34e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\FivePoker\UI_cocos2dx">
+      <UniqueIdentifier>{0ea9151c-983e-4b4d-bdd9-a02b3ec24e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\FivePoker\UI_cocos2dx\FivePoker">
+      <UniqueIdentifier>{39989383-d0c3-4084-a594-8ab48fe0c1ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\FivePoker\UI_cocos2dx\FivePoker\cocos2dx_support">
+      <UniqueIdentifier>{222c1e46-d827-47f8-8162-8d73e43249f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\FivePoker\Interfaces">
+      <UniqueIdentifier>{5cde087f-b60b-457f-995f-07136dc07cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\ConnectMediator">
+      <UniqueIdentifier>{e8492c9f-9086-48b8-b4de-5262d802924d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\ConnectMediator\Common">
+      <UniqueIdentifier>{4ff19c51-3240-4b0f-87fb-e2995021d6d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\ConnectMediator\Controller">
+      <UniqueIdentifier>{3c28c1f3-63ee-48c4-94e1-f47f412afd34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\ConnectMediator\Model">
+      <UniqueIdentifier>{a913ea4d-7ea4-4d37-bb47-d00510df1764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\ConnectMediator\Controller\Command">
+      <UniqueIdentifier>{2868f88f-592f-47b4-9b56-6fad9a47291e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\ConnectMediator\Controller\Command\cs">
+      <UniqueIdentifier>{84af7c47-f4c4-4a1a-b74b-56e7b22a8d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\ConnectMediator\Controller\Command\ga">
+      <UniqueIdentifier>{9093ce4b-4908-42b7-ae19-c975afcb7486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\ConnectMediator\Controller\Command\ls">
+      <UniqueIdentifier>{da0fe23e-1ccc-4e6e-90b0-fcba5a349b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\ConnectMediator\Model\ModelData">
+      <UniqueIdentifier>{37d9cd6b-85f7-4884-a152-cd25dcd785f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\ConnectMediator\Model\Proxy">
+      <UniqueIdentifier>{69688034-97be-4833-9908-e754e1d49c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\ConnectMediator\Model\vo">
+      <UniqueIdentifier>{5f9c36ac-8152-440a-b792-684bee85f712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\ConnectMediator\Model\vo\cs">
+      <UniqueIdentifier>{bda6428b-9a46-4d21-b61b-d18c75cdbfc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\ConnectMediator\Model\vo\ga">
+      <UniqueIdentifier>{e87869eb-d6d4-4486-a099-6482121000e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLayer\ConnectMediator\Model\vo\ls">
+      <UniqueIdentifier>{ea3a216a-bf65-4dac-aeed-b6e143e91e05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\BaseLayer\Component\Net\SocketClient.cpp">
+      <Filter>BaseLayer\Component\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\BaseLayer\Component\Net\GameSocketClient.cpp">
+      <Filter>BaseLayer\Component\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\BaseLayer\Component\Patterns\Command\Command.cpp">
+      <Filter>BaseLayer\Component\Patterns\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\BaseLayer\Component\Patterns\Facade\Facade.cpp">
+      <Filter>BaseLayer\Component\Patterns\Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\BaseLayer\Component\Patterns\Mediator\Mediator.cpp">
+      <Filter>BaseLayer\Component\Patterns\Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\BaseLayer\Component\Patterns\Observer\Notifier.cpp">
+      <Filter>BaseLayer\Component\Patterns\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\BaseLayer\Component\Patterns\Observer\Notification.cpp">
+      <Filter>BaseLayer\Component\Patterns\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\BaseLayer\Component\Patterns\Proxy\Proxy.cpp">
+      <Filter>BaseLayer\Component\Patterns\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\BaseLayer\Core\Controller\Controller.cpp">
+      <Filter>BaseLayer\Core\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\BaseLayer\Core\Model\Model.cpp">
+      <Filter>BaseLayer\Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\BaseLayer\Core\View\View.cpp">
+      <Filter>BaseLayer\Core\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\BaseLayer\Services\Socket\SocketProxy.cpp">
+      <Filter>BaseLayer\Services\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Game.cpp">
+      <Filter>GameLayer\FivePoker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\UI_cocos2dx\FivePoker\AppDelegate.cpp">
+      <Filter>GameLayer\FivePoker\UI_cocos2dx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\UI_cocos2dx\FivePoker\CursorTextField.cpp">
+      <Filter>GameLayer\FivePoker\UI_cocos2dx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\UI_cocos2dx\FivePoker\DGLayer.cpp">
+      <Filter>GameLayer\FivePoker\UI_cocos2dx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\UI_cocos2dx\FivePoker\GameScene.cpp">
+      <Filter>GameLayer\FivePoker\UI_cocos2dx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\UI_cocos2dx\FivePoker\LoginLayer.cpp">
+      <Filter>GameLayer\FivePoker\UI_cocos2dx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\UI_cocos2dx\FivePoker\NGLayer.cpp">
+      <Filter>GameLayer\FivePoker\UI_cocos2dx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\UI_cocos2dx\FivePoker\TouchableSprite.cpp">
+      <Filter>GameLayer\FivePoker\UI_cocos2dx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ConnectMediator\src\Common\GlobalVar.cpp">
+      <Filter>GameLayer\ConnectMediator\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ConnectMediator\src\Common\CommandList.cpp">
+      <Filter>GameLayer\ConnectMediator\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource1.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Common\Type.h">
+      <Filter>BaseLayer\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Common\Common.h">
+      <Filter>BaseLayer\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Common\Event.h">
+      <Filter>BaseLayer\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Common\IData.h">
+      <Filter>BaseLayer\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Common\InstanceMap.h">
+      <Filter>BaseLayer\Component\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IController.h">
+      <Filter>BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IEvent.h">
+      <Filter>BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IFacade.h">
+      <Filter>BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IIterator.h">
+      <Filter>BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IMediator.h">
+      <Filter>BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IModel.h">
+      <Filter>BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\INotification.h">
+      <Filter>BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\INotifier.h">
+      <Filter>BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IObserver.h">
+      <Filter>BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IProxy.h">
+      <Filter>BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IView.h">
+      <Filter>BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\IAggregate.h">
+      <Filter>BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Interfaces\ICommand.h">
+      <Filter>BaseLayer\Component\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Net\SocketClient.h">
+      <Filter>BaseLayer\Component\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Net\GameSocketClient.h">
+      <Filter>BaseLayer\Component\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Patterns\Command\Command.h">
+      <Filter>BaseLayer\Component\Patterns\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Patterns\Facade\Facade.h">
+      <Filter>BaseLayer\Component\Patterns\Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Patterns\Iterator\Iterator.h">
+      <Filter>BaseLayer\Component\Patterns\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Patterns\Mediator\Mediator.h">
+      <Filter>BaseLayer\Component\Patterns\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Patterns\Observer\Notifier.h">
+      <Filter>BaseLayer\Component\Patterns\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Patterns\Observer\Observer.h">
+      <Filter>BaseLayer\Component\Patterns\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Patterns\Observer\Notification.h">
+      <Filter>BaseLayer\Component\Patterns\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Component\Patterns\Proxy\Proxy.h">
+      <Filter>BaseLayer\Component\Patterns\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Core\Controller\Controller.h">
+      <Filter>BaseLayer\Core\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Core\Model\Model.h">
+      <Filter>BaseLayer\Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Core\View\View.h">
+      <Filter>BaseLayer\Core\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Services\Socket\ConnectionModelData.h">
+      <Filter>BaseLayer\Services\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Services\Socket\SocketProxy.h">
+      <Filter>BaseLayer\Services\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Services\Socket\SocketVo.h">
+      <Filter>BaseLayer\Services\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Tools\RSAEncryption.h">
+      <Filter>BaseLayer\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Tools\CRCGenerator.h">
+      <Filter>BaseLayer\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Tools\DESCrypt.h">
+      <Filter>BaseLayer\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Tools\Encryption.h">
+      <Filter>BaseLayer\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\BaseLayer\Tools\itoa.h">
+      <Filter>BaseLayer\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Controller\Command\SendMsgCommand.hpp">
+      <Filter>GameLayer\FivePoker\Controller\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Controller\Command\WaitSyncCommand.hpp">
+      <Filter>GameLayer\FivePoker\Controller\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Interfaces\IGame.h">
+      <Filter>GameLayer\FivePoker\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Game.h">
+      <Filter>GameLayer\FivePoker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\UI_cocos2dx\FivePoker\TouchableSprite.h">
+      <Filter>GameLayer\FivePoker\UI_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\UI_cocos2dx\FivePoker\AnimationAction.hpp">
+      <Filter>GameLayer\FivePoker\UI_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\UI_cocos2dx\FivePoker\AppDelegate.h">
+      <Filter>GameLayer\FivePoker\UI_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\UI_cocos2dx\FivePoker\CursorTextField.h">
+      <Filter>GameLayer\FivePoker\UI_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\UI_cocos2dx\FivePoker\DGLayer.h">
+      <Filter>GameLayer\FivePoker\UI_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\UI_cocos2dx\FivePoker\GameScene.h">
+      <Filter>GameLayer\FivePoker\UI_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\UI_cocos2dx\FivePoker\LoginLayer.h">
+      <Filter>GameLayer\FivePoker\UI_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\UI_cocos2dx\FivePoker\NGLayer.h">
+      <Filter>GameLayer\FivePoker\UI_cocos2dx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\View\Mediator\NGMediator.hpp">
+      <Filter>GameLayer\FivePoker\View\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\View\Mediator\DGMediator.hpp">
+      <Filter>GameLayer\FivePoker\View\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\View\Mediator\LoginMediator.hpp">
+      <Filter>GameLayer\FivePoker\View\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Model\ModelData\FivePokerModelData.h">
+      <Filter>GameLayer\FivePoker\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Model\Proxy\GameProxy.hpp">
+      <Filter>GameLayer\FivePoker\Model\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Model\vo\GCLIMSG_Vo.h">
+      <Filter>GameLayer\FivePoker\Model\Vo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Model\vo\GSLMSG_Vo.h">
+      <Filter>GameLayer\FivePoker\Model\Vo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Model\vo\GameMsg.h">
+      <Filter>GameLayer\FivePoker\Model\Vo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Common\GameProtocol.h">
+      <Filter>GameLayer\ConnectMediator\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Common\GlobalVar.h">
+      <Filter>GameLayer\ConnectMediator\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Common\CommandList.h">
+      <Filter>GameLayer\ConnectMediator\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Common\GameMessage.hpp">
+      <Filter>GameLayer\ConnectMediator\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ServiceCloseCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\LobbyStartUpCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AcceptGameGroupListCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AcceptGameStateCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AcceptKeepTableInfoCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AcceptOnlineMemberCountCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AcceptPlayerLoginCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AcceptUserListCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AddBadGuyCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AddFriendCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AddLoaderToStageCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AllChannelMessageReceivedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AskGameGroupListCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AskOnlineMemberCountCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\AskUserListCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\BadGuyAddedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\BadGuyDeletedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\BadGuyListReceivedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\BroadcastJPMessageArrivedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\BroadcastMessageArrivedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\CancelJoinedGroupCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\CentralServerTickCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\CentralServerTickEnabledCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\ChannelListArrivedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\ChannelMessageReceivedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\ChannelUserLeaveCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\ChannelUserListArrivedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\ConnectToCentralServerCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\DeleteBadGuyCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\DeleteFriendCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\DoGameLoadErrorCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\FriendAddedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\FriendDeletedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\FriendListReceivedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\FriendshipAskCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\FriendshipAskResultCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\GameDisconnectedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\GameGroupFinishedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\GetBadGuyListCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\GetFriendListCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\JoinChannelCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\JoinChannelResultCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\JoinedGroupCancelledCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\JoinGroupCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\JoinGroupResultCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\JPBonusReceivedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\LoadGameCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\LoginToCentralServerCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\PingQualityCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\QueryChargeRateCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\QueryChargeRateResultCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\QueryJPBonusCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\ReceivePingCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SendAllChannelMessageCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SendChannelMessageCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SendPingCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SendTalkCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SendWhisperCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SerachUserCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SerachUserResultCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SetUserNickNameCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SetUserNickNameResultCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SetUserPictureCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SetUserPictureResultCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\SystemMessageArrivedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\TalkReceivedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\TransferFreePointCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\TransferFreePointResultCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\TransferValuablePointCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\TransferValuablePointResultCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\UserProfileReceivedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\cs\WhisperReceivedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ga\AcceptGameServerLoginResultCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ga\ConnectToGameServerCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ga\GameServerTickCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ga\LoginToGameServerCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ga\RegisterLoaderCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ga\SyncGameServerDataCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ga\AcceptGameClientClosedCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ls\LoginToLoginServerCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\ls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Controller\Command\ls\ConnectToLoginServerCommand.hpp">
+      <Filter>GameLayer\ConnectMediator\Controller\Command\ls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\ChatModelData.h">
+      <Filter>GameLayer\ConnectMediator\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\CSUserInfoListModelData.h">
+      <Filter>GameLayer\ConnectMediator\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\GameGroupBufferModelData.h">
+      <Filter>GameLayer\ConnectMediator\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\GameInfoManagerModelData.h">
+      <Filter>GameLayer\ConnectMediator\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\GameServerLoginBufferModelData.h">
+      <Filter>GameLayer\ConnectMediator\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\GameWindowInfoModelData.h">
+      <Filter>GameLayer\ConnectMediator\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\GameWindowManagerModelData.h">
+      <Filter>GameLayer\ConnectMediator\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\GCliUserInfoListModelData.h">
+      <Filter>GameLayer\ConnectMediator\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\LoginBufferModelData.h">
+      <Filter>GameLayer\ConnectMediator\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\PlayerModelData.h">
+      <Filter>GameLayer\ConnectMediator\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\ModelData\BroadcastModelData.h">
+      <Filter>GameLayer\ConnectMediator\Model\ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\Proxy\GameServerProxy.hpp">
+      <Filter>GameLayer\ConnectMediator\Model\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\Proxy\LoginServerProxy.hpp">
+      <Filter>GameLayer\ConnectMediator\Model\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\Proxy\CentralServerProxy.hpp">
+      <Filter>GameLayer\ConnectMediator\Model\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_CHK_USER_R_Vo.h">
+      <Filter>GameLayer\ConnectMediator\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_CHK_USER_S_Vo.h">
+      <Filter>GameLayer\ConnectMediator\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_GET_FIVE_POKER_GRP_LIST_R_Vo.h">
+      <Filter>GameLayer\ConnectMediator\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_GET_GAME_STATE_R_Vo.h">
+      <Filter>GameLayer\ConnectMediator\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_GET_USR_LIST_R_Vo.h">
+      <Filter>GameLayer\ConnectMediator\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_GET_USR_LIST_S_Vo.h">
+      <Filter>GameLayer\ConnectMediator\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_USER_JOIN_BUILTIN_GRP_R_Vo.h">
+      <Filter>GameLayer\ConnectMediator\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_USER_JOIN_BUILTIN_GRP_S_Vo.h">
+      <Filter>GameLayer\ConnectMediator\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_USER_RELOGIN_GS_R_Vo.h">
+      <Filter>GameLayer\ConnectMediator\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_FIVE_POKER_GROUP.h">
+      <Filter>GameLayer\ConnectMediator\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_ASK_GAME_GRP_LIST_S_Vo.h">
+      <Filter>GameLayer\ConnectMediator\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\cs\CS_LB_BOOT_TICK_R_Vo.h">
+      <Filter>GameLayer\ConnectMediator\Model\vo\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\ga\SLMSG_Vo.h">
+      <Filter>GameLayer\ConnectMediator\Model\vo\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\ga\CLIMSG_GROUP_SETTED_Vo.h">
+      <Filter>GameLayer\ConnectMediator\Model\vo\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\ga\GS_GA_RELOGIN_USER_R_Vo.h">
+      <Filter>GameLayer\ConnectMediator\Model\vo\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\ga\GS_GA_RELOGIN_USER_S_Vo.h">
+      <Filter>GameLayer\ConnectMediator\Model\vo\ga</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\ls\LS_LB_CHK_USER_R_Vo.h">
+      <Filter>GameLayer\ConnectMediator\Model\vo\ls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\ls\CS_ListData.h">
+      <Filter>GameLayer\ConnectMediator\Model\vo\ls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ConnectMediator\src\Model\vo\ls\LoginRequestVo.h">
+      <Filter>GameLayer\ConnectMediator\Model\vo\ls</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

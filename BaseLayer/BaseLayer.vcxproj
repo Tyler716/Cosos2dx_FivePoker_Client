@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4414EE81-152E-4DCD-A574-F93AB737DA7E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>BaseLayer</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>Component/Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Component\Common\Common.h" />
+    <ClInclude Include="Component\Common\Event.h" />
+    <ClInclude Include="Component\Common\IData.h" />
+    <ClInclude Include="Component\Common\InstanceMap.h" />
+    <ClInclude Include="Component\Common\Type.h" />
+    <ClInclude Include="Component\Interfaces\IAggregate.h" />
+    <ClInclude Include="Component\Interfaces\ICommand.h" />
+    <ClInclude Include="Component\Interfaces\IController.h" />
+    <ClInclude Include="Component\Interfaces\IEvent.h" />
+    <ClInclude Include="Component\Interfaces\IFacade.h" />
+    <ClInclude Include="Component\Interfaces\IIterator.h" />
+    <ClInclude Include="Component\Interfaces\IMediator.h" />
+    <ClInclude Include="Component\Interfaces\IModel.h" />
+    <ClInclude Include="Component\Interfaces\INotification.h" />
+    <ClInclude Include="Component\Interfaces\INotifier.h" />
+    <ClInclude Include="Component\Interfaces\IObserver.h" />
+    <ClInclude Include="Component\Interfaces\IProxy.h" />
+    <ClInclude Include="Component\Interfaces\IView.h" />
+    <ClInclude Include="Component\Net\GameSocketClient.h" />
+    <ClInclude Include="Component\Net\SocketClient.h" />
+    <ClInclude Include="Component\Patterns\Command\Command.h" />
+    <ClInclude Include="Component\Patterns\Facade\Facade.h" />
+    <ClInclude Include="Component\Patterns\Iterator\Iterator.h" />
+    <ClInclude Include="Component\Patterns\Mediator\Mediator.h" />
+    <ClInclude Include="Component\Patterns\Observer\Notification.h" />
+    <ClInclude Include="Component\Patterns\Observer\Notifier.h" />
+    <ClInclude Include="Component\Patterns\Observer\Observer.h" />
+    <ClInclude Include="Component\Patterns\Proxy\Proxy.h" />
+    <ClInclude Include="Core\Controller\Controller.h" />
+    <ClInclude Include="Core\Model\Model.h" />
+    <ClInclude Include="Core\View\View.h" />
+    <ClInclude Include="Services\Socket\ConnectionModelData.h" />
+    <ClInclude Include="Services\Socket\SocketProxy.h" />
+    <ClInclude Include="Services\Socket\SocketVo.h" />
+    <ClInclude Include="testsuite\include\tut.h" />
+    <ClInclude Include="testsuite\include\tut\tut.hpp" />
+    <ClInclude Include="testsuite\include\tut\tut_assert.hpp" />
+    <ClInclude Include="testsuite\include\tut\tut_console_reporter.hpp" />
+    <ClInclude Include="testsuite\include\tut\tut_cppunit_reporter.hpp" />
+    <ClInclude Include="testsuite\include\tut\tut_exception.hpp" />
+    <ClInclude Include="testsuite\include\tut\tut_posix.hpp" />
+    <ClInclude Include="testsuite\include\tut\tut_reporter.hpp" />
+    <ClInclude Include="testsuite\include\tut\tut_restartable.hpp" />
+    <ClInclude Include="testsuite\include\tut\tut_result.hpp" />
+    <ClInclude Include="testsuite\include\tut\tut_runner.hpp" />
+    <ClInclude Include="testsuite\include\tut\tut_xml_reporter.hpp" />
+    <ClInclude Include="testsuite\include\tut_reporter.h" />
+    <ClInclude Include="testsuite\include\tut_restartable.h" />
+    <ClInclude Include="testsuite\src\CommandTestCommand.hpp" />
+    <ClInclude Include="testsuite\src\CommandTestFirstCommand.hpp" />
+    <ClInclude Include="testsuite\src\CommandTestSecondCommand.hpp" />
+    <ClInclude Include="testsuite\src\CommandTestVO.hpp" />
+    <ClInclude Include="testsuite\src\ControllerTestCommand.hpp" />
+    <ClInclude Include="testsuite\src\ControllerTestCommand2.hpp" />
+    <ClInclude Include="testsuite\src\ControllerTestInheritance.hpp" />
+    <ClInclude Include="testsuite\src\ControllerTestVO.hpp" />
+    <ClInclude Include="testsuite\src\FacadeTestCommand.hpp" />
+    <ClInclude Include="testsuite\src\FacadeTestInheritance.hpp" />
+    <ClInclude Include="testsuite\src\FacadeTestVO.hpp" />
+    <ClInclude Include="testsuite\src\IteratorTest.hpp" />
+    <ClInclude Include="testsuite\src\ModelTestInheritance.hpp" />
+    <ClInclude Include="testsuite\src\ModelTestProxy.hpp" />
+    <ClInclude Include="testsuite\src\ViewTest.hpp" />
+    <ClInclude Include="testsuite\src\ViewTestInheritance.hpp" />
+    <ClInclude Include="testsuite\src\ViewTestMediator.hpp" />
+    <ClInclude Include="testsuite\src\ViewTestMediator2.hpp" />
+    <ClInclude Include="testsuite\src\ViewTestMediator3.hpp" />
+    <ClInclude Include="testsuite\src\ViewTestMediator4.hpp" />
+    <ClInclude Include="testsuite\src\ViewTestMediator5.hpp" />
+    <ClInclude Include="testsuite\src\ViewTestMediator6.hpp" />
+    <ClInclude Include="testsuite\src\ViewTestNote.hpp" />
+    <ClInclude Include="Tools\CRCGenerator.h" />
+    <ClInclude Include="Tools\DESCrypt.h" />
+    <ClInclude Include="Tools\Encryption.h" />
+    <ClInclude Include="Tools\itoa.h" />
+    <ClInclude Include="Tools\RSAEncryption.h" />
+    <ClInclude Include="Tools\Thread\Thread.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Component\Net\GameSocketClient.cpp" />
+    <ClCompile Include="Component\Net\SocketClient.cpp" />
+    <ClCompile Include="Component\Patterns\Command\Command.cpp" />
+    <ClCompile Include="Component\Patterns\Facade\Facade.cpp" />
+    <ClCompile Include="Component\Patterns\Mediator\Mediator.cpp" />
+    <ClCompile Include="Component\Patterns\Observer\Notification.cpp" />
+    <ClCompile Include="Component\Patterns\Observer\Notifier.cpp" />
+    <ClCompile Include="Component\Patterns\Proxy\Proxy.cpp" />
+    <ClCompile Include="Core\Controller\Controller.cpp" />
+    <ClCompile Include="Core\Model\Model.cpp" />
+    <ClCompile Include="Core\View\View.cpp" />
+    <ClCompile Include="Services\Socket\SocketProxy.cpp" />
+    <ClCompile Include="testsuite\src\CommandTest.cpp" />
+    <ClCompile Include="testsuite\src\ControllerTest.cpp" />
+    <ClCompile Include="testsuite\src\FacadeTest.cpp" />
+    <ClCompile Include="testsuite\src\IteratorTest.cpp" />
+    <ClCompile Include="testsuite\src\main.cpp" />
+    <ClCompile Include="testsuite\src\MediatorTest.cpp" />
+    <ClCompile Include="testsuite\src\ModelTest.cpp" />
+    <ClCompile Include="testsuite\src\NotificationTest.cpp" />
+    <ClCompile Include="testsuite\src\ObserverTest.cpp" />
+    <ClCompile Include="testsuite\src\ProxyTest.cpp" />
+    <ClCompile Include="testsuite\src\ViewTest.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

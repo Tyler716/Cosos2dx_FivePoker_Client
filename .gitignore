@@ -1,0 +1,43 @@
+# Windows and Visual Studio
+Thumbs.db
+Desktop.ini
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+ipch/
+BaseLayer/Debug/
+BaseLayer/Release/
+GameLayer/ConnectMediator/Debug/
+GameLayer/ConnectMediator/Release/
+GameLayer/FivePoker/Platform/proj.win32/Debug.win32/
+GameLayer/FivePoker/Platform/proj.win32/Release.win32/
+GameLayer/FivePoker/Platform/proj.win32/Debug_ViewTest.win32/
+x64/
+x86/
+*.obj
+*.pdb
+*.ilk
+*.pch
+*.idb
+*.tlog/
+
+# Android / NDK build output
+GameLayer/FivePoker/Platform/proj.android/assets/
+GameLayer/FivePoker/Platform/proj.android/bin/
+GameLayer/FivePoker/Platform/proj.android/gen/
+GameLayer/FivePoker/Platform/proj.android/obj/
+GameLayer/FivePoker/Platform/proj.android/libs/
+GameLayer/FivePoker/Platform/proj.android/local.properties
+*.apk
+*.aab
+*.dex
+*.class
+
+# General generated files
+.DS_Store
+*.log
+*.tmp

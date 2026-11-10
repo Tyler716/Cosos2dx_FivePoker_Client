@@ -1,0 +1,14 @@
+目前Client連線方式
+1. 登入loginServer,建立一條連線
+2. 確定能登入CentralServer後,連接CentralServer後切斷login Server的連線
+3. 點遊戲ICON,進迷你大廳,點群組後,新出來的視窗,會與GM連建一條線,每連一個會多一條線
+所以,Client會一直保持與大廳的連線,再N條跟GM的連線
+
+
+LS Msg
+2012/11/08 11:24:54 DB_LS_CHK_USER_R 返回 Command 需求 
+2012/11/08 11:24:54 第一次登入, PLUniID = 238
+2012/11/08 11:24:54 DB_LS_CHK_USER_R 返回 AP Command 需求
+2012/11/08 11:24:54 LS_CS_CHK_USER_S PLUniID = 238, LoginKey = 9169
+2012/11/08 11:24:54 玩家：【is001】離線, 最後接收訊息【384】, 最後傳送訊息【384】, 狀態為玩家已登入至CS中
+
